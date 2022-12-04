@@ -1,0 +1,1559 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+.ABOUTUS-PAGE-- {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* const bellow */
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.head-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  padding-bottom: 11px;
+}
+
+.request-btn {
+  width: 275px;
+  height: 94px;
+  background: #000000;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.request-group {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+/* header */
+
+header {
+  width: 100%;
+  height: 112px;
+  margin-bottom: 70px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* logo */
+
+a.logo {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 29%;
+}
+
+a.logo .title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 59px;
+}
+
+/* burger */
+
+.header__burger {
+  display: none;
+}
+
+/* nav */
+
+ul.nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 69%;
+  float: right;
+  align-items: center;
+}
+
+.nav__element {
+  margin-left: 4%;
+}
+
+.nav__element:nth-last-child() {
+  margin-left: 0;
+}
+
+.nav__element a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+
+
+/* slider */
+
+.slide {
+  width: 100%;
+}
+
+.arrow {
+  width: 39px;
+  height: 39px;
+  border: none;
+}
+
+button.arrow-left {
+  margin-right: 10px;
+  background: url('../images/icons/btn-left.jpg') center no-repeat;
+}
+
+button.arrow-right {
+  margin-left: 10px;
+  background: url('../images/icons/btn-right.jpg') center no-repeat;
+}
+
+.about-hotel__slider {
+  width: 37%;
+  height: 100%;
+}
+
+.about-hotel__slider .slider .slide .image {
+  width: 100%;
+  height: 445px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 60px;
+}
+
+
+/* map */
+
+.map {
+  width: 87%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.map__social-networks {
+  width: 18%;
+}
+
+.map__social-networks .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.map__social-networks .link p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.map__interactive-map {
+  width: 75%;
+  height: 467px;
+  margin-left: 5%;
+}
+
+.map__interactive-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 60px;
+}
+
+/* footer */
+
+footer .footer__contacts {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+footer .footer__contacts .block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .footer__contacts .block:nth-child(1) {
+  margin-right: 7%;
+}
+footer .footer__contacts .block .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  width: 100%;
+}
+
+.footer__contacts .block p.number:nth-child(2) {
+  margin-right: 20px;
+}
+
+.footer__contacts .block p.number {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 15px;
+}
+
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*             ABOUT US PAGE              */
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+.ABOUTUS-PAGE-- header .nav__element:nth-child(1) a {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+/* banner */
+
+.ABOUTUS-PAGE-- .banner {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.ABOUTUS-PAGE-- .banner__slider {
+  width: 65%;
+  height: 371px;
+
+}
+
+
+.ABOUTUS-PAGE-- .banner_text {
+  margin-left: 9%;
+
+}
+
+.ABOUTUS-PAGE-- .banner_text h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ABOUTUS-PAGE-- .banner_text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 15px;
+}
+
+.ABOUTUS-PAGE-- .banner__text-block {
+  margin-bottom: 35px;
+}
+
+.ABOUTUS-PAGE-- .banner__slider .slider .slide .image {
+  width: 100%;
+  height: 100%;
+  height: 371px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 60px;
+}
+
+/* about-us */
+
+.ABOUTUS-PAGE-- .aboutus {
+  width: 41%;
+  margin: 0 auto;
+}
+
+.ABOUTUS-PAGE-- .aboutus p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+
+/* main */
+
+.ABOUTUS-PAGE-- main {
+  margin-top: 100px;
+}
+
+/* hotel-preview */
+
+.ABOUTUS-PAGE-- .hotel-preview {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.ABOUTUS-PAGE-- .hotel-preview p {
+  text-align: center;
+  width: 47%;
+}
+
+.ABOUTUS-PAGE-- .hotel-preview__image {
+  position: relative;
+  margin-left: 6%;
+  width: 46%;
+  display: inline-block;
+}
+
+.ABOUTUS-PAGE-- .hotel-preview__image .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 60px;
+  background: url("../images/photo/room-3.jpg") no-repeat center / cover;;
+}
+
+/* about hotel */
+
+.ABOUTUS-PAGE-- .about-hotel {
+  width: 66%;
+  height: 100%;
+  margin: 0 auto; 
+  margin-bottom: 100px;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+
+.ABOUTUS-PAGE-- .about-hotel__description {
+  width: 58%;
+  margin-left: 7%;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__description:nth-child(1) {
+  margin-left: 0;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__description .title {
+  width: 100%;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__description .text {
+  width: 80%;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__description .price {
+  width: 100%;
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+/* sauna */
+
+.ABOUTUS-PAGE-- .sauna {
+  width: 76%;
+  margin: 0 auto;
+}
+
+.ABOUTUS-PAGE-- .sauna__image {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.ABOUTUS-PAGE-- .sauna__image .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 60px;
+  background: url("../images/photo/sauna-mainpage-big-img.jpg") no-repeat center / cover;;
+}
+
+.ABOUTUS-PAGE-- .sauna__description {
+  margin-top: 45px;
+  height: 100%;
+
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ABOUTUS-PAGE-- .sauna__description .title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 32px;
+  width: 100%;
+  margin-top: -34px;
+  text-align: center;
+}
+
+.ABOUTUS-PAGE-- .sauna__description .text {
+  width: 460px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.ABOUTUS-PAGE-- .sauna__description .price {
+  margin-top: 34px;
+  margin-bottom: 29px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* info */
+
+.ABOUTUS-PAGE-- .info {
+  width: 46%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.ABOUTUS-PAGE-- .info .doc {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ABOUTUS-PAGE-- .info .doc .doc-title {
+  padding: 15px 0 0 0;
+  width: 150px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*                 HOTEL                  */
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+.HOTEL-PAGE-- header .nav__element:nth-child(3) a {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+.HOTEL-PAGE-- .title-of-page {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0 auto;
+  text-align: center; 
+  margin-bottom: 45px;
+}
+
+/* hotel-preview */
+
+.HOTEL-PAGE-- .hotel-preview {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.HOTEL-PAGE-- .hotel-preview p {
+  width: 47%;
+}
+
+.HOTEL-PAGE-- .hotel-preview__image {
+  position: relative;
+  margin-left: 6%;
+  width: 46%;
+  display: inline-block;
+}
+
+.HOTEL-PAGE-- .hotel-preview__image .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 60px;
+  background: url("../images/photo/room-2.jpg") no-repeat center / cover;;
+}
+
+
+/* about hotel */
+
+.HOTEL-PAGE-- .about-hotel {
+  width: 66%;
+  height: 100%;
+  margin: 0 auto; 
+  margin-bottom: 100px;
+}
+
+.HOTEL-PAGE-- .about-hotel__block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+
+.HOTEL-PAGE-- .about-hotel__description {
+  width: 58%;
+  margin-left: 7%;
+}
+
+.HOTEL-PAGE-- .about-hotel__description:nth-child(1) {
+  margin-left: 0;
+}
+
+.HOTEL-PAGE-- .about-hotel__description .title {
+  width: 100%;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.HOTEL-PAGE-- .about-hotel__description .text {
+  width: 80%;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.HOTEL-PAGE-- .about-hotel__description .price {
+  width: 100%;
+  margin-bottom: 17px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.HOTEL-PAGE-- .about-hotel__description a.request-group .request-btn {
+  margin-top: 31px;
+}
+
+
+/* feedback */
+
+.HOTEL-PAGE-- .feedback {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.HOTEL-PAGE-- .feedback .block {
+  width: 37%;
+
+  text-align: center;
+}
+
+.HOTEL-PAGE-- .feedback .block:nth-child(1) {
+  margin-right: 5%;
+  width: 22%;
+}
+
+.HOTEL-PAGE-- .feedback .block .title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.HOTEL-PAGE-- .feedback .block .feedback_input input {
+  width: 61%;
+  padding-bottom: 14px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.HOTEL-PAGE-- .feedback .block .feedback_input:nth-child(3) {
+  margin-top: 32px;
+}
+
+.HOTEL-PAGE-- .feedback .block .message {
+  margin: 20px 0;
+}
+
+.HOTEL-PAGE-- .feedback .block .message textarea{
+  text-align: center;
+  padding-top: 11px;
+  background-color: rgba(0, 0, 0, 0.03);
+  min-height: 30px;
+  min-width: 97%;
+  width: 97%;
+  height: 112px;
+  max-width: 97%;
+  max-height: 202px;
+  border: none;
+  border-radius: 20px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.HOTEL-PAGE-- .feedback .block .text {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.HOTEL-PAGE-- .feedback .block .number {
+  margin-bottom: 16px;
+}
+
+.HOTEL-PAGE-- .feedback .block .number:nth-child(3) {
+  margin-bottom: 33px;
+}
+
+.HOTEL-PAGE-- .feedback .block .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.HOTEL-PAGE-- .feedback .block p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*                CONTACTS                */
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+.CONTACTS-PAGE-- header .nav__element:nth-child(5) a {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+.CONTACTS-PAGE-- .info {
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.CONTACTS-PAGE-- .info .about-company {
+  width: 51%;
+}
+
+.CONTACTS-PAGE-- .info .about-company .title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 18px;
+}
+
+.CONTACTS-PAGE-- .info h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.CONTACTS-PAGE-- .info p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.CONTACTS-PAGE-- .info p:last-child {
+  margin-bottom: 0;
+}
+
+.CONTACTS-PAGE-- .info .contacts {
+  width: 27%;
+  margin-left: 21%;
+}
+
+.CONTACTS-PAGE-- .info .contacts .block {
+  text-align: center;
+}
+
+.CONTACTS-PAGE-- .info .contacts .block:nth-child(1) {
+  margin-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*                  MEDIA                 */
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+  .container {
+    width: 100%;
+  }
+
+  /* header */
+
+  header {
+    padding: 0 20px;
+  }
+
+/* head title for all blocks*/
+
+  .head-title {
+    width: 100%;
+  }
+
+/* map */
+
+.map {
+  width: 96%;
+  margin: 0 2%;
+  margin-bottom: 40px;
+}
+
+.map__social-networks {
+  width: 20%;
+}
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+  
+/*             ABOUT US PAGE              */
+
+
+
+/* banner */
+
+  .ABOUTUS-PAGE-- .banner {
+    width: 96%;
+    margin: 0 2%;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .ABOUTUS-PAGE-- .banner__slider {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .ABOUTUS-PAGE-- .banner_text {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .ABOUTUS-PAGE-- .banner_text .banner__text-block {
+    width: 45%;
+  }
+
+  .ABOUTUS-PAGE-- .banner_text .banner__text-block:nth-child(1) {
+    margin-right: 10px;
+  }
+
+  .ABOUTUS-PAGE-- .banner__text-block h3 {
+    width: 100%;
+  }
+
+  .ABOUTUS-PAGE-- .banner__text-block p {
+    width: 40%;
+    display: inline-block;
+
+  }
+
+  .ABOUTUS-PAGE-- .banner__text-block p:nth-child(2) {
+    margin-right: 10px;
+  }
+
+/* aboutus */
+
+  .ABOUTUS-PAGE-- .aboutus {
+    width: 60%;
+  }
+
+/* sauna */
+
+  .ABOUTUS-PAGE-- .sauna {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+/* hotel preview */
+
+  .ABOUTUS-PAGE-- .hotel-preview {
+    width: 96%;
+    margin: 0 2%;
+    margin-bottom: 100px;
+  }
+
+/* about hotel */
+
+.ABOUTUS-PAGE-- .about-hotel {
+  width: 80%;
+}
+
+
+
+/*                 HOTEL                  */
+
+
+/* info */
+
+  .HOTEL-PAGE-- .info {
+    width: 60%;
+  }
+
+/* about hotel */
+
+
+  .HOTEL-PAGE-- .about-hotel {
+    width: 80%;
+  }
+
+/* hotel preview */
+
+  .HOTEL-PAGE-- .hotel-preview {
+    width: 96%;
+    margin: 0 2%;
+    margin-bottom: 100px;
+  }
+
+/* feedback */
+
+  .HOTEL-PAGE-- .feedback .block {
+    width: 40%;
+  }
+
+  .HOTEL-PAGE-- .feedback .block:nth-child(1) {
+    width: 40%;
+  }
+
+  .HOTEL-PAGE-- .feedback .block .link {
+    width: 50%;
+  }
+
+
+
+
+
+/*             CONTACTS              */
+
+
+  .CONTACTS-PAGE-- .info {
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .CONTACTS-PAGE-- .info .about-company {
+    width: 60%;
+  }
+
+  .CONTACTS-PAGE-- .info .contacts {
+    margin-left: 0;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+/* header */
+
+.logo {
+  z-index: 2;
+}
+
+ul.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(226, 226, 226);
+  z-index: 1;
+  justify-content: center;
+  padding: 100px 0;
+  display: none;
+  border: none;
+  border-radius: 0 0 60px 60px;
+}
+
+ul.nav.active {
+  display: block;
+}
+
+.nav__element {
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* burger */
+
+.header__burger {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  z-index: 2;
+  top: 54px;
+  transition: all 5s ease;
+  float: right;
+}
+
+.header__burger.active::before {
+  transform: rotate(45deg);
+  top: 5px;
+}
+
+.header__burger.active::after {
+  transform: rotate(-45deg);
+  top: 4px;
+}
+
+.header__burger::before,
+.header__burger::after {
+  content: " ";
+  background-color: grey;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+}
+
+  .header__burger::before {
+
+  top: 10px;
+}
+
+/* slider */
+
+.about-hotel__slider {
+  width: 79%;
+  margin-bottom: 40px;
+}
+
+.about-hotel__block button.arrow {
+  margin: 0;
+}
+
+
+/* map */
+
+.map {
+  flex-flow: wrap;
+}
+
+.map .map__social-networks {
+  display: flex;
+  width: 100%;
+  order: 1;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.map .map__social-networks .link:nth-child(2) {
+  margin-left: 20px;
+}
+
+.map .map__interactive-map {
+  width: 100%;
+  margin: 0;
+  order: 0;
+}
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*             ABOUT US PAGE              */
+
+
+  /* banner */
+
+  .ABOUTUS-PAGE-- .banner__slider {
+    margin-left: 0;
+    margin-right: 0;
+    width:80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .ABOUTUS-PAGE-- .banner .arrow {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .ABOUTUS-PAGE-- .banner {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .ABOUTUS-PAGE-- .banner .banner_text {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .ABOUTUS-PAGE-- .banner .banner__text-block {
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0 0 12%;
+  }
+
+  .ABOUTUS-PAGE-- .banner_text .banner__text-block:nth-child(1) {
+    margin: 0 0 30px 0;
+  }
+
+  .ABOUTUS-PAGE-- .banner .banner__text-block p {
+    width: 120px;
+  }
+
+/* aboutus */
+
+  .ABOUTUS-PAGE-- .aboutus {
+    width: 80%;
+  }
+
+/* main */
+
+  .ABOUTUS-PAGE-- main {
+    margin-top: 20%;
+  }
+
+/* hotel peview */
+
+  .ABOUTUS-PAGE-- .hotel-preview {
+    justify-content: center;
+    align-items: unset;
+    flex-flow: wrap;
+  }
+
+  .ABOUTUS-PAGE-- .hotel-preview p.hotel-preview__text {
+    width: 90%;
+    margin-top: 30px;
+    display: block;
+    float: right;
+    order: 1;
+  }
+
+  .ABOUTUS-PAGE-- .hotel-preview__image {
+    width: 96%;
+    float: left;
+    margin-left: 0;
+    order: 0;
+  }
+
+  /* about hotel */
+
+  .ABOUTUS-PAGE-- .about-hotel {
+  width: 96%;
+  margin: 0 2%;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__block {
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__description {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0;
+}
+.ABOUTUS-PAGE-- .about-hotel__description .text,
+.ABOUTUS-PAGE-- .about-hotel__description .price,
+.ABOUTUS-PAGE-- .about-hotel__description .title {
+  width: 80%;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__block:nth-child(2) {
+  flex-flow: wrap;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__block:nth-child(2) .about-hotel__slider {
+  order: 0;
+}
+
+.ABOUTUS-PAGE-- .about-hotel__block:nth-child(2) .about-hotel__description {
+  order: 1;
+}
+
+
+/* sauna */
+
+  .ABOUTUS-PAGE-- .sauna__description {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ABOUTUS-PAGE-- .sauna__description .text {
+    width: 100%;
+  }
+
+  .ABOUTUS-PAGE-- .sauna__description .title {
+    margin-bottom: 10px;
+  }
+
+/* info */
+
+  .ABOUTUS-PAGE-- .info {
+    width: 90%;
+  }
+
+
+
+
+/*                 HOTEL                  */
+
+/* hotel peview */
+
+.HOTEL-PAGE-- .hotel-preview {
+  justify-content: center;
+  align-items: unset;
+  flex-flow: wrap;
+}
+
+.HOTEL-PAGE-- .hotel-preview p.hotel-preview__text {
+  width: 90%;
+  margin-top: 30px;
+  display: block;
+  float: right;
+  order: 1;
+}
+
+.HOTEL-PAGE-- .hotel-preview__image {
+  width: 96%;
+  float: left;
+  margin-left: 0;
+  order: 0;
+}
+
+/* about hotel */
+
+.HOTEL-PAGE-- .about-hotel {
+  width: 96%;
+  margin: 0 2%;
+}
+
+.HOTEL-PAGE-- .about-hotel__block {
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.HOTEL-PAGE-- .about-hotel__description {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0;
+}
+.HOTEL-PAGE-- .about-hotel__description .text,
+.HOTEL-PAGE-- .about-hotel__description .price,
+.HOTEL-PAGE-- .about-hotel__description .title {
+  width: 80%;
+}
+
+.HOTEL-PAGE-- .about-hotel__block:nth-child(2) {
+  flex-flow: wrap;
+}
+
+.HOTEL-PAGE-- .about-hotel__block:nth-child(2) .about-hotel__slider {
+  order: 0;
+}
+
+.HOTEL-PAGE-- .about-hotel__block:nth-child(2) .about-hotel__description {
+  order: 1;
+}
+
+/* feedback */
+
+.HOTEL-PAGE-- .feedback {
+  flex-wrap: wrap;
+}
+
+.HOTEL-PAGE-- .feedback .block {
+  width: 80%;
+
+}
+
+.HOTEL-PAGE-- .feedback .block:nth-child(1) {
+  width: 80%;
+  margin-bottom: 50px;
+  margin-right: 0;
+}
+
+.HOTEL-PAGE-- .feedback .block .text {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.HOTEL-PAGE-- .feedback .block .request-group {
+  margin: 0 auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*             CONTACTS              */
+
+
+.CONTACTS-PAGE-- .info {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.CONTACTS-PAGE-- .info .about-company {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+.CONTACTS-PAGE-- .info .about-company .title {
+  margin-bottom: 50px;
+}
+
+.CONTACTS-PAGE-- .info .about-company h3,
+.CONTACTS-PAGE-- .info .about-company p {
+  text-align: center;
+}
+
+.CONTACTS-PAGE-- .info .contacts {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.CONTACTS-PAGE-- .info .contacts .block:nth-child(1) {
+  margin-bottom: 0;
+  margin-right: 5%;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+
+/*----------------------*/
+/*----------------------*/
+
+
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+/* header */
+
+  header {
+    padding: 0 5px;
+    margin-bottom: 20px;
+  }
+
+/* slider */
+
+  .about-hotel__slider {
+    width: 72%;
+  }
+
+  /* map */  
+
+.map {
+  margin-bottom: 30px;
+}
+
+.map__social-networks {
+  flex-wrap: wrap;
+}
+
+.map__social-networks .link {
+  width: 100%;
+  justify-content: center;
+}
+
+.map .map__social-networks .link:nth-child(2) {
+  margin: 0;
+}
+
+
+  /* footer */  
+
+  footer .footer__contacts {
+    flex-wrap: wrap;
+  }
+  
+  footer .footer__contacts .block:nth-child(1) {
+    margin: 0 0 20px 0;
+  }
+
+  footer .footer__contacts .block {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer__contacts .block p.number {
+    width: 100%;
+  }
+
+  .footer__contacts .block p.number:nth-child(2) {
+    margin-right: 0px;
+  }
+
+
+
+  /*----------------------*/
+  /*----------------------*/
+
+
+
+/*             ABOUT US PAGE              */
+
+
+/* banner */
+
+  .ABOUTUS-PAGE-- .banner__slider, 
+  .ABOUTUS-PAGE-- .banner .arrow {
+    display: none;
+  }
+  .ABOUTUS-PAGE-- .banner {
+    width: 98%;
+    margin: 0 2%;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .ABOUTUS-PAGE-- .banner .banner__text-block {
+    padding: 0 0 0 20%;
+  }
+
+/* hotel preview */  
+
+  .ABOUTUS-PAGE-- .hotel-preview {
+    margin-bottom: 50px;
+  }
+
+/* about hotel */  
+
+  .ABOUTUS-PAGE-- .about-hotel {
+    width: 100%;
+    margin: 0;
+  }
+
+
+
+/* sauna */  
+
+  .ABOUTUS-PAGE-- .sauna__image {
+    display: none;
+  }
+
+
+
+
+  /*                 HOTEL                  */
+
+/* hotel preview */  
+
+  .HOTEL-PAGE-- .hotel-preview {
+    margin-bottom: 50px;
+  }
+
+  .HOTEL-PAGE-- .about-hotel {
+    width: 100%;
+    margin: 0;
+  }
+
+/* feedback */ 
+
+  .HOTEL-PAGE-- .feedback .block,
+  .HOTEL-PAGE-- .feedback .block:nth-child(1) {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .HOTEL-PAGE-- .feedback .block .link {
+    width: 70%;
+  }
+
+
+/*             CONTACTS              */
+
+
+  .CONTACTS-PAGE-- .info {
+    width: 90%;
+  }
+
+  .CONTACTS-PAGE-- .info .about-company {
+    width: 100%;
+  }
+
+  .CONTACTS-PAGE-- .info .about-company .title {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .CONTACTS-PAGE-- .info .contacts {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .CONTACTS-PAGE-- .info .contacts .block {
+    width: 100%;
+  }
+
+  .CONTACTS-PAGE-- .info .contacts .block:nth-child(1) {
+    margin: 0 0 50px 0;
+  }
+
+
+
+}
