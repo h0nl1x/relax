@@ -15,6 +15,12 @@ ol[class] {
   padding: 0;
 }
 
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .ABOUTUS-PAGE-- {
   margin: 0;
   padding: 0;
@@ -32,13 +38,20 @@ ol[class] {
 .head-title {
   text-align: center;
   margin: 0 auto;
-  width: 20%;
-  border-bottom: 1px solid #000000;
+  width: 100%;
   margin-bottom: 60px;
+}
+
+.head-title h1 {
   font-weight: 400;
   font-size: 32px;
   line-height: 39px;
   padding-bottom: 11px;
+}
+
+.head-title hr {
+  width: 10%;
+  margin: 0 auto;
 }
 
 .request-btn {
@@ -50,14 +63,18 @@ ol[class] {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
-a.request-group {
+.request-group {
   color: #ffffff;
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  background: transparent;
 }
 
 
@@ -506,11 +523,23 @@ footer .footer__contacts .block .title {
 
 
 
+
+
 /*----------------------------------------*/
 /*----------------------------------------*/
 /*                 HOTEL                  */
 /*----------------------------------------*/
 /*----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 .HOTEL-PAGE-- header .nav__element:nth-child(3) a {
   font-weight: 700;
@@ -553,7 +582,7 @@ footer .footer__contacts .block .title {
   height: 100%;
   border: none;
   border-radius: 60px;
-  background: url("../images/photo/room-2.jpg") no-repeat center / cover;;
+  background: url("../images/photo/room-18.jpg") no-repeat center / cover;;
 }
 
 
@@ -607,7 +636,7 @@ footer .footer__contacts .block .title {
   line-height: 22px;
 }
 
-.HOTEL-PAGE-- .about-hotel__description a.request-group .request-btn {
+.HOTEL-PAGE-- .about-hotel__description .request-group .request-btn {
   margin-top: 31px;
 }
 
@@ -639,7 +668,7 @@ footer .footer__contacts .block .title {
   margin-bottom: 20px;
 }
 
-.HOTEL-PAGE-- .feedback .block .feedback_input input {
+.HOTEL-PAGE-- .feedback .block .feedback_input {
   width: 61%;
   padding-bottom: 14px;
   border: none;
@@ -652,15 +681,15 @@ footer .footer__contacts .block .title {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.HOTEL-PAGE-- .feedback .block .feedback_input:nth-child(3) {
-  margin-top: 32px;
+.HOTEL-PAGE-- .feedback .block .feedback_input:nth-child(2n) {
+  margin-bottom: 32px;
 }
 
 .HOTEL-PAGE-- .feedback .block .message {
   margin: 20px 0;
 }
 
-.HOTEL-PAGE-- .feedback .block .message textarea{
+.HOTEL-PAGE-- .feedback .block .message{
   text-align: center;
   padding-top: 11px;
   background-color: rgba(0, 0, 0, 0.03);
@@ -709,6 +738,157 @@ footer .footer__contacts .block .title {
 
 
 
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*                 SAUNA                  */
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+
+
+.SAUNA-PAGE-- header .nav__element:nth-child(4) a {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+
+/* banner */
+
+.SAUNA-PAGE-- .title-of-page {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0 auto;
+  text-align: center; 
+  margin-bottom: 45px;
+}
+
+.top-banner-text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.SAUNA-PAGE-- .banner {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.SAUNA-PAGE-- .banner__slider {
+  width: 87%;
+  height: 445px;
+}
+
+.SAUNA-PAGE-- .banner__slider .slider .slide .image {
+  width: 100%;
+  height: 445px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 60px;
+}
+
+/* about sauna */
+
+.SAUNA-PAGE-- .about-sauna {
+  width: 53%;
+  margin: 100px auto;
+}
+
+.SAUNA-PAGE-- .about-sauna .block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.SAUNA-PAGE-- .about-sauna .block:nth-child(2n) {
+  flex-flow: wrap;
+}
+
+.SAUNA-PAGE-- .about-sauna .block:nth-child(2n) .about-sauna__text {
+  order: 0;
+  margin-right: 6%;
+}
+
+.SAUNA-PAGE-- .about-sauna .block:nth-child(2n) .about-sauna__image {
+  order: 1;
+  margin-right: 0;
+}
+
+.SAUNA-PAGE-- .about-sauna__text {
+  width: 48%;
+  text-align: center;
+}
+
+.SAUNA-PAGE-- .about-sauna__image {
+  position: relative;
+  margin-right: 6%;
+  width: 46%;
+  display: inline-block;
+}
+
+.SAUNA-PAGE-- .about-sauna__image .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 60px;
+  background: no-repeat center / cover;;
+}
+
+
+.SAUNA-PAGE-- .about-sauna .about-sauna__text h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.SAUNA-PAGE-- .about-sauna .about-sauna__text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.SAUNA-PAGE-- .about-sauna .about-sauna__text p.number:nth-child(2n) {
+  margin-bottom: 16px;
+}
+
+.SAUNA-PAGE-- .about-sauna .about-sauna__text p.number:nth-child(1n) {
+  margin-bottom: 22px;
+}
+
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks .link p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
 
 
 /*----------------------------------------*/
@@ -812,11 +992,6 @@ footer .footer__contacts .block .title {
     padding: 0 20px;
   }
 
-/* head title for all blocks*/
-
-  .head-title {
-    width: 100%;
-  }
 
 /* map */
 
@@ -975,6 +1150,29 @@ footer .footer__contacts .block .title {
 
 
 
+
+
+/*              SAUNA PAGE               */
+
+
+
+.SAUNA-PAGE-- .about-sauna {
+  width: 80%;
+}
+
+.SAUNA-PAGE-- .about-sauna__text {
+  width: 38%;
+}
+
+.SAUNA-PAGE-- .about-sauna .block {
+  justify-content: center;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks {
+  width: 70%;
+}
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -983,6 +1181,11 @@ footer .footer__contacts .block .title {
 
 /*----------------------*/
 /*----------------------*/
+
+
+.head-title hr {
+  width: 15%;
+}
 
 
 
@@ -1330,9 +1533,17 @@ ul.nav.active {
 
 .HOTEL-PAGE-- .feedback .block .request-group {
   margin: 0 auto;
-  margin-right: 0;
   display: flex;
   justify-content: center;
+}
+
+.HOTEL-PAGE-- .feedback .block .link {
+  width: 50%;    
+  justify-content: center;
+}
+
+.HOTEL-PAGE-- .feedback .block .link:nth-child(5) {
+  padding-right: 25px;
 }
 
 
@@ -1375,6 +1586,42 @@ ul.nav.active {
 
 
 
+
+/*              SAUNA PAGE               */
+
+.SAUNA-PAGE-- .about-sauna .block {
+  flex-wrap: wrap;
+}
+
+.SAUNA-PAGE-- .about-sauna__image {
+  width: 86%;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.SAUNA-PAGE-- .about-sauna__text {
+  width: 86%;
+}
+
+.SAUNA-PAGE-- .about-sauna .block:nth-child(2n) .about-sauna__image {
+  order: 0;
+}
+
+.SAUNA-PAGE-- .about-sauna .block:nth-child(2n) .about-sauna__text {
+  order: 1;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks .link {
+  justify-content: center;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks .link:nth-child(1) {
+  padding-right: 25px;
+}
+
+
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -1384,7 +1631,9 @@ ul.nav.active {
 /*----------------------*/
 /*----------------------*/
 
-
+.head-title hr {
+  width: 20%;
+}
 
   .container {
     width: 100%;
@@ -1555,5 +1804,30 @@ ul.nav.active {
   }
 
 
+/*              SAUNA PAGE               */
+
+.SAUNA-PAGE-- .banner {
+  display: none;
+}
+
+.SAUNA-PAGE-- .top-banner-text {
+  width: 90%;
+}
+
+.SAUNA-PAGE-- .about-sauna{
+  width: 96%;
+}
+
+.SAUNA-PAGE-- .about-sauna__image {
+  width: 90%;
+}
+
+.SAUNA-PAGE-- .about-sauna {
+  margin-top: 50px;
+}
+
+.SAUNA-PAGE-- .about-sauna__text .social-networks .link:nth-child(1) {
+  padding-right: 0px;
+}
 
 }

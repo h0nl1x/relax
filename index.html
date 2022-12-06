@@ -22,7 +22,7 @@
     <header>
 
         <div class="container">
-           <a href="#" class="logo">
+           <a href="index.html" class="logo">
                 <img src="./assets/images/logo.png" alt="">
                 <h1 class="title">Релакс</h1>
             </a>
@@ -40,7 +40,7 @@
                     <a href="hotel.html">Гостиница</a>
                 </li>
                 <li class="nav__element">
-                    <a href="">Сауна</a>
+                    <a href="sauna.html">Сауна</a>
                 </li>
                 <li class="nav__element">
                     <a href="contacts.html">Контакты</a>
@@ -57,29 +57,35 @@
         <div class="container">
             <div class="banner">
                     
-                <button class="arrow arrow-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                <button class="arrow arrow-left banner-arrow-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 <div class="banner__slider">
                     
-                    <div class="slider">
+                    <div class="slider banner-slider-for-js">
                         <div class="slide">
                             <div class="image" style="background-image: url('./assets/images/banners/banner_1.jpg');"></div>
-                            <!-- <img src="./assets/images/banner_1.jpg" alt=""> -->
-                        </div>
-                        <div class="slide">
-                            <div class="image" style="background-image: url('./assets/images/banners/banner_2.jpg');"></div>
-                            <!-- <img src="./assets/images/banner_2.jpg" alt=""> -->
-                        </div>
-                        <div class="slide">
-                            <div class="image" style="background-image: url('./assets/images/banners/banner_3.jpg');"></div>
-                            <!-- <img src="./assets/images/banner_3.jpg" alt=""> -->
                         </div>
                         <div class="slide">
                             <div class="image" style="background-image: url('./assets/images/banners/banner_4.jpg');"></div>
-                            <!-- <img src="./assets/images/banner_4.jpg" alt=""> -->
+                        </div>
+                        <div class="slide">
+                            <div class="image" style="background-image: url('./assets/images/banners/banner_3.jpg');"></div>
+                        </div>
+                        <div class="slide">
+                            <div class="image" style="background-image: url('./assets/images/banners/banner_7.jpg');"></div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="image" style="background-image: url('./assets/images/banners/banner_2.jpg');"></div>
+                        </div>
+                        <div class="slide">
+                            <div class="image" style="background-image: url('./assets/images/banners/banner_5.jpg');"></div>
+                        </div>
+                        <div class="slide">
+                            <div class="image" style="background-image: url('./assets/images/banners/banner_6.jpg');"></div>
                         </div>
                     </div>  
                 </div>
-                <button class="arrow arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                <button class="arrow arrow-right banner-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
     
                 <div class="banner_text">
                     <div class="banner__text-block">
@@ -114,7 +120,10 @@
             <div class="container">
     
                         <!-- HOTEL PREVIEW -->
-                <h1 class="head-title">Гостиница</h1>
+                <div class="head-title">
+                    <h1>Гостиница</h1>
+                    <hr>
+                </div>
                 <div class="hotel-preview">
                     <p class="hotel-preview__text">
                         В нашей гостинице 10 номеров, представлены категории «Эконом»,
@@ -136,24 +145,24 @@
     
                 <div class="about-hotel">
                 <div class="about-hotel__block">
-                    <button class="arrow arrow-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button class="arrow arrow-left about-hotel-arrow-left-one">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
                     <div class="about-hotel__slider">
-                        <div class="slider">
+                        <div class="slider about-hotel-slider-one">
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/photo/room-1.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-5.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/photo/room-2.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-6.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/banners/banner_3.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-7.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/banners/banner_4.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-8.jpg');"></div>
                             </div>
                         </div> 
                     </div>
-                    <button class="arrow arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button class="arrow arrow-right about-hotel-arrow-right-one">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 
                     <div class="about-hotel__description">
                         <h3 class="title">Номера ”Эконом”</h3>
@@ -161,7 +170,7 @@
                         номер небольшой площади с 1,5 спальной кроватью</p>
                         <p class="price">2000₽ в сутки</p>
                     
-                        <a href="#" class="request-group"><div class="request-btn">Оставить заявку</div></a>
+                        <a href="hotel.html#feedback" class="request-group"><div class="request-btn">Оставить заявку</div></a>
                     </div>
                 </div>
     
@@ -177,26 +186,41 @@
                             номера этой категории есть возможность поставить дополнительной место</p>
                         <p class="price">2700₽ в сутки</p>
                     
-                        <a href="#" class="request-group"><div class="request-btn">Оставить заявку</div></a>
+                        <a href="hotel.html#feedback" class="request-group"><div class="request-btn">Оставить заявку</div></a>
                     </div>
-                    <button class="arrow arrow-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button class="arrow arrow-left about-hotel-arrow-left-two">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
                     <div class="about-hotel__slider">
-                        <div class="slider">
+                        <div class="slider about-hotel-slider-two">
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/photo/room-1.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-12.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/photo/room-2.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-10.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/banners/banner_3.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-11.jpg');"></div>
                             </div>
                             <div class="slide">
-                                <div class="image" style="background-image: url('./assets/images/banners/banner_4.jpg');"></div>
+                                <div class="image" style="background-image: url('./assets/images/photo/room-13.jpg');"></div>
+                            </div>
+                            <div class="slide">
+                                <div class="image" style="background-image: url('./assets/images/photo/room-14.jpg');"></div>
+                            </div>
+                            <div class="slide">
+                                <div class="image" style="background-image: url('./assets/images/photo/room-15.jpg');"></div>
+                            </div>
+                            <div class="slide">
+                                <div class="image" style="background-image: url('./assets/images/photo/room-16.jpg');"></div>
+                            </div>
+                            <div class="slide">
+                                <div class="image" style="background-image: url('./assets/images/photo/room-17.jpg');"></div>
+                            </div>
+                            <div class="slide">
+                                <div class="image" style="background-image: url('./assets/images/photo/room-9.jpg');"></div>
                             </div>
                         </div> 
                     </div>
-                    <button class="arrow arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button class="arrow arrow-right about-hotel-arrow-right-two">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
                 
                 </div>
     
@@ -204,7 +228,10 @@
     
                         <!-- SAUNA -->
     
-                <h1 class="head-title">Сауна</h1>
+                <div class="head-title">
+                    <h1>Сауна</h1>
+                    <hr>
+                </div>
                 <div class="sauna">
                     
                     <div class="sauna__image">
@@ -225,14 +252,17 @@
                        
                         <div class="block">
                             <p class="price">1200₽ в час</p>
-                            <a href="#" class="request-group"><div class="request-btn">Подробнее</div></a>
+                            <a href="sauna.html#sauna-feedback" class="request-group"><div class="request-btn">Подробнее</div></a>
                         </div>
                         
                     </div>
                 </div>
                         <!-- INFO -->
     
-                <h1 class="head-title">Информация</h1>
+                <div class="head-title">
+                    <h1>Информация</h1>
+                    <hr>
+                </div>
                 <div class="info">
                     <p class="text">Мы постоянно совершенствуемся, стремимся к улучшению, чтобы
                         наши дорогие гости всегда возвращались к нам. 
@@ -262,7 +292,10 @@
                 </div>
     
                         <!-- MAP -->
-                <h1 class="head-title">Карта</h1>
+                <div class="head-title">
+                    <h1>Карта</h1>
+                    <hr>
+                </div>
                 <div class="map">
                     <div class="map__social-networks">
                         <a href="#" class="link">
